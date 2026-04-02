@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/01 Domain/">
+    <Project Path="MongoNotes.Domain/MongoNotes.Domain.csproj" />
+  </Folder>
+  <Folder Name="/02 Application/">
+    <Project Path="MongoNotes.Application/MongoNotes.Application.csproj" />
+  </Folder>
+  <Folder Name="/03 Infrastructure/">
+    <Project Path="MongoNotes.Infrastructure/MongoNotes.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/04 Presentation/">
+    <Project Path="MongoNotes.Presentation\MongoNotes.Presentation.csproj" />
+  </Folder>
+</Solution>

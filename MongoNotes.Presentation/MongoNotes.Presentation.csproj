@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-MongoNotes-aa49572f-49fd-457e-9654-ce5443f27fc0</UserSecretsId>
+        <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData>
+        <RootNamespace>MongoNotes</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="AspNetCore.Identity.MongoDbCore" Version="7.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.4" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\MongoNotes.Domain\MongoNotes.Domain.csproj" />
+      <ProjectReference Include="..\MongoNotes.Infrastructure\MongoNotes.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
